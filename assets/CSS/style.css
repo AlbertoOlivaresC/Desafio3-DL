@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Raleway",sans-serif;
+}
+
+.nav{
+    padding: 10px;
+}
+
+.header-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 0px;
+}
+
+.title-2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    margin-bottom: 4rem;
+    padding-top: 75px;
+}
+
+.main-background{
+    width: 100%;
+}
+
+.margin-b{
+    margin-bottom: 44px;
+}
+
+.margin-t{
+    margin-top: 44px;
+}
+
+.content{
+    /*260px por la diferencia de los 2 margins de 44px para ser 348px*/
+    height: 260px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content-text{
+    width: 25%;
+    min-width: 400px;
+}
+
+.content img{
+    width: 399px;
+    height: 237px;
+}
+
+.characteristics{
+    background-color: #1E1A13;
+    height: 348px;
+    padding-inline: 15%;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.icon-group{
+    text-align: center;
+}
+
+.icon-group p{
+    font-size: 24px;
+    padding-top: 1rem;
+}
+
+.images{
+    height: 260px;
+    padding-inline: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.images img{
+    width: 316px;
+    height: 202px;
+}
+
+.footer{
+    background-color: #1E1A13;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p, .footer a{
+    font-family: "Raleway",sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    color: green;
+}
